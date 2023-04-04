@@ -13,5 +13,5 @@ jobs:
         uses: ./ 
         with:
           num: 11
-      -name: Print the square
+      - name: Print the square
         run: echo "${{ steps.get_square.outputs.num_squard }}"
